@@ -1,23 +1,27 @@
-# Exercice - JAVA - AtelierPromptingIA :memo:
+# 📝 Exercise - JS - TS - AI Prompting Workshop
 
-## Comment travailler sur cet atelier ?
+## 🎯 How to Work on This Workshop
 
-Tout d'abord clonez le projet et observez la convetion de branching.
-Les branches sont scindés par exercice, `exercice1`, `exercice2`, etc...
+Clone the project:
 
-Créer vous une branche par exercice afin de le résoudre et poussez vos solutions en ligne.
-Si vous travaillez sur la solution de `exercice1` depuis cette branche créez vous une branche de solution sous ce format:
-  
-> exercice1_IA_YYYY_MM_DD_nom_prenom
+```bash
+git clone <ADD FINAL REPO URL>
+```
 
-Chacun des exercices, dispose d'un README.md se suffisant à lui même car :
-- il vous donne les consignes de l'exercice
-- vous sert de branche source pour tirer votre branche de solution
-- vos solutions sont à ajoutées directement dans le README.md de votre nouvelle branche crée
+Create a branch for yourself if possible so you can push your results to a unique branch.
+
+> WorkshopPromptingAI_YYYY_MM_DD_firstname_lastname
+
+The folders are divided by exercise, `exercice1`, `exercice2`, etc. Each exercise has a `README.md` that is self-sufficient because: 
+
+- It provides you with the exercise instructions
+- It serves as your working environment
+- Your solutions are to be added directly in the `README.md` of each folder
  
-L'objectif ici est d'utiliser votre assistant d'IA générative dans la pratique des techniques de prompt engineering. 
-Vos essais ne seront pas forcément concluant du premier coup, pour cela n'hésitez pas à intégrer des explications détaillés en plus du prompt qui vous a permis de résoudre nos différents cas d'usage.
+The goal here is to use your generative AI assistant in practicing prompt engineering techniques.
 
-Il est important aussi d'envoyer la réponse renvoyée par votre assistant d'IA générative.
+Your attempts might not be successful on the first try, so feel free to include detailed explanations in addition to the prompt that helped you solve our different use cases.
 
-Eh bien maintenant, si vous êtes prêt, c'est partie, partons pour la branche exercice1 !
+It's also important to include the response returned by your generative AI assistant.
+
+Well, if you're ready, let's start with folder exercise1!

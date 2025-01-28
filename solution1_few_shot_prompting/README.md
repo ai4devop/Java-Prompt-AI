@@ -11,12 +11,19 @@ Possible example:
 
 Now it's your turn to integrate your prompt below: 👀
 ```java
-Write your prompt here
+Generate a method in java that accept a number and return odd if it is odd or even of it is even
 ```
 
 What was the response?
 ```java
-Write AI response here
+public class Main {
+    public static String isEvenOrOdd(int number) {
+        if (number % 2 == 0) {
+            return "Even";
+        }
+        return "Odd";
+    }
+}
 ```
 
 ## 2️⃣ Use Case 2: Create a New Prompt for the Model to Generate a Java method with a Specific Response Structure
@@ -29,12 +36,17 @@ Possible example:
 
 Now it's your turn to integrate your prompt below: 👀
 ```java
-Write your prompt here
+Generate a java method that take a string in parameter and can be read in both ways like radar or kayak
 ```
 
 What was the response?
 ```java
-Write AI response here
+public class Main {
+    public static boolean isPalindrome(String word) {
+        String reversed = new StringBuilder(word).reverse().toString();
+        return word.equals(reversed);
+    }
+}
 ```
 
 ## 3️⃣ Use Case 3: Compare Your Two Responses and Test Other Response Structures

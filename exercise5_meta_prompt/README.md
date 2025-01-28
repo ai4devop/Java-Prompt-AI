@@ -7,20 +7,17 @@ The meta-prompt involves asking the model to create a prompt itself using specif
 Possible example:
 
 ```typescript
-Write an AI prompt to help me generate a to-do list of best practices for developing an Angular 18 project.
+Create a prompt for the model to create a prompt for a topic like the best practice for developing an Java 23 project.
 ```
 
-Now it's your turn to integrate your prompt below:  👀
-
-```typescript
-Create a prompt for the model to create a prompt for a topic.
+Now it's your turn to integrate your prompt below: 👀
+```java
+Write your prompt here
 ```
 
 What was the response?
-
-```typescript
-Here is a prompt you can use to generate a to-do list of best practices for an Angular 18 project:
-"List best practices for developing an Angular 18 project, focusing on component structure, service management, routing configuration, and unit testing. Make sure to include suggestions on performance optimization, security management, and recommendations for using TypeScript with Angular."
+```java
+Write AI response here
 ```
 
 ## 2️⃣ Use Case 2: Create a Prompt Asking the Model to Generate a Prompt Combining Multiple Methods of Prompting
@@ -28,20 +25,17 @@ Here is a prompt you can use to generate a to-do list of best practices for an A
 Possible example:
 
 ```typescript
-Write an AI prompt that combines the "act like" method and the "chain of thought" method to generate a list of best practices for an Angular 18 project.
-```
-
-Now it's your turn to integrate your prompt below:  👀
-
-```typescript
 Create a prompt asking the model to generate a prompt combining multiple methods of prompting.
 ```
 
-What was the response?
+Now it's your turn to integrate your prompt below: 👀
+```java
+Write your prompt here
+```
 
-```typescript
-Here is a prompt combining the "act like" method and the "chain of thought" method to generate Angular 18 best practices:
-"Act like an Angular 18 expert. Using a step-by-step reasoning (chain of thought), generate a list of best practices for developing an Angular 18 project. Describe each best practice explaining why it is important and how it improves the project's quality. Focus on code structure, performance optimization, state management, testing, and security."
+What was the response?
+```java
+Write AI response here
 ```
 
 ## 🕵️‍♀️ Analysis of Provided Examples

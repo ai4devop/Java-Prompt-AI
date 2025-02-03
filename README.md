@@ -1,4 +1,4 @@
-# 📝 Exercise - JS - TS - AI Prompting Workshop
+# 📝 Exercise - JAVA - AI Prompting Workshop
 
 ## 🎯 How to Work on This Workshop
 

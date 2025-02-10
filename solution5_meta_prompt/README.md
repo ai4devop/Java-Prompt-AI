@@ -2,7 +2,7 @@
 
 The meta-prompt involves in creating a prompt that will be a prompt template to use for many occasions.
 
-## 1️⃣ Use Case 1: Create a Prompt for the Model to Create a Prompt on a Topic
+## 1️⃣ Use Case 1: Create a Prompt on a Topic
 
 Possible example:
 

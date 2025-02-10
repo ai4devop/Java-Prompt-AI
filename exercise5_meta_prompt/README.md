@@ -1,13 +1,16 @@
 # 📝 Exercise5 - Meta-Prompt ~ 10 minutes
 
-The meta-prompt involves asking the model to create a prompt itself using specific parameters. This method allows exploring new possibilities while automating prompt creation.
+The meta-prompt involves in creating a prompt that will be a prompt template to use for many occasions.
 
-## 1️⃣ Use Case 1: Create a Prompt for the Model to Create a Prompt on a Topic
+## 1️⃣ Use Case 1: Create a generic Prompt about a Topic
 
 Possible example:
 
 ```typescript
-Create a prompt for the model to create a prompt for a topic like the best practice for developing an Java 23 project.
+Create a prompt for the model that will be your base and help you in occasions
+For exemple, the best practice for developing in Java 23
+(You can also ask AI to help you to create it)
+And use it for some cases
 ```
 
 Now it's your turn to integrate your prompt below: 👀
@@ -41,7 +44,7 @@ Write AI response here
 ## 🕵️‍♀️ Analysis of Provided Examples
 
 ***Simple Meta-Prompt:***
-The first exercise asks the model to generate an effective prompt for a to-do list of Angular 18 best practices. The solution suggests a well-structured prompt, covering essential aspects like component structure and service management.
+The first exercise will help you to have a pre-written prompt to help you for others cases. The solution suggests a well-structured prompt, covering essential aspects like component structure and service management.
 
 ***Combined Meta-Prompt:***
 The second exercise uses the "act like" and "chain of thought" methods to generate a complex prompt, where the model must think step-by-step and act as an expert. The response demonstrates a thoughtful approach to combining the two techniques, providing detailed results.

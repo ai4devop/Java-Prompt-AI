@@ -59,7 +59,7 @@ Sure, here is a prompt that combines the "act like" method and the "chain of tho
 ## 🕵️‍♀️ Analysis of Provided Examples
 
 ***Simple Meta-Prompt:***
-The first exercise asks the model to generate an effective prompt for a to-do list of Angular 18 best practices. The solution suggests a well-structured prompt, covering essential aspects like component structure and service management.
+The first exercise will help you to have a pre-written prompt to help you for others cases. The solution suggests a well-structured prompt, covering essential aspects like component structure and service management.
 
 ***Combined Meta-Prompt:***
 The second exercise uses the "act like" and "chain of thought" methods to generate a complex prompt, where the model must think step-by-step and act as an expert. The response demonstrates a thoughtful approach to combining the two techniques, providing detailed results.

@@ -44,13 +44,13 @@ Utilisez ce pré-prompt pour guider l'assistant dans ses réponses et fournir un
 Exemple possible :
 
 ```java
-Écris un prompt IA qui va combiner la méthode "act like" et la méthode "chain of thought" pour générer une liste de bonnes pratiques pour un projet Spring Boot.
+Créez un prompt qui demande au modèle de créer un prompt combinant plusieurs méthodes de prompting.
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Créez un prompt qui demande au modèle de créer un prompt combinant plusieurs méthodes de prompting.
+Écris un prompt IA qui va combiner la méthode "act like" et la méthode "chain of thought" pour générer une liste de bonnes pratiques pour un projet Spring Boot.
 ```
 Quelle a été la réponse ?
 
@@ -64,13 +64,13 @@ Voici un prompt combinant la méthode "act like" et la méthode "chain of though
 Exemple possible
 
 ```java
-La liste de chaînes est-elle suffisante pour tester entièrement la méthode validateEmail ? Sinon, comment peut-elle être améliorée ?
+Demandez au modèle de s'auto-évaluer et d'améliorer sa réponse.
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Demandez au modèle de s'auto-évaluer et d'améliorer sa réponse.
+La liste de chaînes est-elle suffisante pour tester entièrement la méthode validateEmail ? Sinon, comment peut-elle être améliorée ?
 ```
 
 Quelle a été la réponse ?

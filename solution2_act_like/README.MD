@@ -6,7 +6,7 @@
 
 Possible example:
 ```java
-Ask your AI like a JAVA developer to help you secure an API in JAVA
+Ask your AI to act like a JAVA developer to help you secure an API in JAVA
 ```
 
 Now it's your turn to integrate your prompt below: 👀

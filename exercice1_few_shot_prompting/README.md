@@ -28,7 +28,7 @@ Ecrivez la réponse de l'IA ici
 Exemple possible :
 
 ```java
-// créez une méthode Java qui vérifie si un mot est un palindrome
+// créez une méthode Java qui vérifie si un mot est un palindrome en décrivant avec vos propres mot ce qu'est un palindrome sans écrire le mot palindrome
 // Input: isPalindrome("radar") > Output: true
 // Input: isPalindrome("Bonjour") > Output: false
 ```

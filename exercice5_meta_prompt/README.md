@@ -19,6 +19,7 @@ Et utilisez là pour certains use cases
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -37,6 +38,7 @@ Créez un prompt qui demande au modèle de créer un prompt combinant plusieurs 
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -54,6 +56,7 @@ Demandez au modèle de s'auto-évaluer et d'améliorer sa réponse.
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```

@@ -176,7 +176,7 @@ Possible example:
 
 Now it's your turn to integrate your prompt below: 👀
 ```java
-Modify this regex ^[\w.=-]+@[\w.-]+.[\w]{2,3}Modify this regex ^[\w.=-]+@[\w.-]+.[\w]{2,3}$ so that it accepts only strings that finish by "@gmail.com"
+Modify this regex ^[\w.=-]+@[\w.-]+.[\w]{2,3}$ so that it accepts only strings that finish by "@gmail.com"
 ```
 
 What was the response?

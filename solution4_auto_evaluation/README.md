@@ -7,19 +7,20 @@ L'auto-évaluation consiste à demander au modèle de s'évaluer lui-même en ut
 Exemple possible :
 
 ```java
+Créez un prompt qui demande au modèle de dresser une liste d’éléments exhaustifs pour tester une méthode Java.
 // Méthode qui valide une adresse e-mail
 public static boolean validateEmail(String email) {
     String emailRegex = "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$";
     return email.matches(emailRegex);
 }
-
-Dresse une liste d'éléments pour tester la méthode validateEmail en Java.
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Créez un prompt qui demande au modèle de dresser une liste d’éléments exhaustifs pour tester une méthode Java.
+Voici mon code
+[code]
+Dresse une liste d'éléments pour tester la méthode validateEmail en Java.
 ```
 
 Quelle a été la réponse ?
@@ -46,13 +47,13 @@ Il est important de couvrir ces cas pour vérifier les limites et l'efficacité 
 Exemple possible :
 
 ```java
-Peux-tu fournir d'autres exemples de chaînes à tester pour la méthode validateEmail ?
+Demandez au modèle s’il peut donner plus de possibilités.
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Demandez au modèle s’il peut donner plus de possibilités.
+Peux-tu fournir d'autres exemples de chaînes à tester pour la méthode validateEmail ?
 ```
 Quelle a été la réponse ?
 
@@ -74,13 +75,13 @@ Ces exemples supplémentaires permettent de tester des cas moins courants mais p
 Exemple possible
 
 ```java
-La liste de chaînes est-elle suffisante pour tester entièrement la méthode validateEmail ? Sinon, comment peut-elle être améliorée ?
+Demandez au modèle de s'auto-évaluer et d'améliorer sa réponse.
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Demandez au modèle de s'auto-évaluer et d'améliorer sa réponse.
+La liste de chaînes est-elle suffisante pour tester entièrement la méthode validateEmail ? Sinon, comment peut-elle être améliorée ?
 ```
 
 Quelle a été la réponse ?

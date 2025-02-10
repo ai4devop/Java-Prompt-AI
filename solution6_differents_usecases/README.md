@@ -1,11 +1,11 @@
 # 📝 Exercise6 - Different usecases ~ 20 minutes
-This file contains several exercises that highlight various use cases for a developer. These exercises will allow you to test multiple scenarios, providing a comprehensive understanding of different situations you may encounter in development.
+The fichier contient plusieurs exercices qui mettent en avant plusieurs use cases de développeur. Ces exercices vous permettent de tester plusieurs scénario, permettant de mieux comprendre comment utiliser l'IA dans votre quotidien.
 
-## Use Case 1: Fix code
-Possible example:
+## Cas d'usage 1: Fix code
+Exemple possible:
 ```java
-// Check why this code is not working whithout IA
-// Ask AI to fix it
+// Vérifiez pourquoi ce code ne fonctionne pas (sans IA)
+// Demandez à l'IA de réparer ce code
 public static int divide(int a, String b) {
     // Division
     int result = a / b;
@@ -16,7 +16,7 @@ public static int divide(int a, String b) {
 
 Now it's your turn to integrate your prompt below: 👀
 ```java
-Why is my code not working ?
+Pourquoi mon code ne fonctionne pas
 public static int divide(int a, String b) {
     // Division
     int result = a / b;
@@ -27,11 +27,11 @@ public static int divide(int a, String b) {
 
 What was the response?
 ```java
-Your code has a few issues:
+Votre code ne fonctionne pas pour plusieurs raisons :
 
-You are trying to divide an integer by a string, which is not allowed.
-You have declared the variable result twice, which will cause a compilation error.
-Here is the corrected version of your code:
+Vous essayez de diviser un entier par une chaîne de caractères, ce qui n'est pas possible.
+Vous avez deux déclarations de la variable result, ce qui provoque une erreur de compilation.
+Voici une version corrigée de votre code :
 
 public static int divide(int a, int b) {
     // Division
@@ -39,12 +39,12 @@ public static int divide(int a, int b) {
     if (b != 0) {
         result = a / b;
     } else {
-        System.out.println("Division by zero is not allowed.");
+        throw new ArithmeticException("Division by zero is not allowed.");
     }
     return result;
 }
 
-This code ensures that the division is performed only if b is not zero, and it handles the case where b is zero by printing an error message.
+Cette version prend deux entiers en entrée et vérifie si le diviseur est différent de zéro avant de procéder à la division. Si le diviseur est zéro, une exception est levée.
 ```
 
 ## Use Case 2: Optimize code

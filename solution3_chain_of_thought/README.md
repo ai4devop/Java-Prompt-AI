@@ -2,9 +2,32 @@
 
 La technique "Chain of Thought" consiste à guider le modèle dans un processus de raisonnement pour expliquer chaque étape de réflexion. Ici, nous utilisons cette méthode pour générer de la documentation en Java.
 
-## CCas d'usage 1 : Créez un prompt qui demande au modèle d'écrire de la documentation pour un code Java.
+## Cas d'usage 1 : Créez un prompt qui demande au modèle d'écrire de la documentation pour un code Java.
 
 Exemple possible :
+
+```java
+Créez un prompt qui demande au modèle d'écrire de la documentation pour un code Java.
+
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/clients")
+public class ClientController {
+
+    @GetMapping("/{clientId}")
+    public String getClient(@PathVariable String clientId) {
+        return "John Doe";
+    }
+
+    @PostMapping
+    public String updateClient() {
+        return "Client updated!";
+    }
+}
+```
+
+À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
 Voici mon code :
@@ -26,12 +49,6 @@ public class ClientController {
 }
 
 Écris une documentation pour ce service API.
-```
-
-À vous de jouer en intégrant votre prompt ci-dessous :
-
-```java
-Créez un prompt qui demande au modèle d'écrire de la documentation pour un code Java.
 ```
 
 Quelle a été la réponse ?
@@ -70,13 +87,13 @@ curl -X POST http://localhost:8080/clients -d "Client updated!"
 Exemple possible :
 
 ```java
-Écris une documentation pour ce service API en utilisant la méthodologie OpenAPI.
+Créez un prompt qui demande au modèle de générer la documentation pour la même API, mais cette fois-ci en utilisant une méthodologie spécifique comme OpenAPI
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Créez un prompt qui demande au modèle de générer la documentation pour la même API, mais cette fois-ci en utilisant une méthodologie spécifique.
+Écris une documentation pour ce service API en utilisant la méthodologie OpenAPI.
 ```
 Quelle a été la réponse ?
 

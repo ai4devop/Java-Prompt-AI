@@ -36,7 +36,7 @@ Possible example:
 
 Now it's your turn to integrate your prompt below: 👀
 ```java
-Generate a java method that take a string in parameter and can be read in both ways like radar or kayak
+Generate a java method that take a string in parameter and verify if it can be read in both ways like radar or kayak
 ```
 
 What was the response?

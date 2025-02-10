@@ -18,6 +18,7 @@ Exemple possible :
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -38,6 +39,7 @@ Exemple possible :
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```

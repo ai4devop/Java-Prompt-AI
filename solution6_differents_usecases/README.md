@@ -48,9 +48,9 @@ Cette version prend deux entiers en entrée et vérifie si le diviseur est diff�
 ```
 
 ## Use Case 2: Optimize code
-Possible example:
+Exemple possible:
 ```java
-//ask AI to add some optimization like protecting the denominator from 0
+// Demandez à l'IA d'ajouter de l'optimisation comme une protection du denominateur différent de 0
 public static int divide(int a, int b) {
     int result = a / b;
     return result;
@@ -58,20 +58,20 @@ public static int divide(int a, int b) {
 
 ```
 
-Now it's your turn to integrate your prompt below: 👀
+À vous de jouer en intégrant votre prompt ci-dessous : 👀
 ```java
-Can you add a denominator check to this code ?
+Peux-tu ajouter une sécurité pour éviter le dénominateur à 0 ?
 public static int divide(int a, int b) {
     int result = a / b;
     return result;
 }
 ```
 
-What was the response?
+Quelle a été la réponse ?
 ```java
 public static int divide(int a, int b) {
     if (b == 0) {
-        throw new IllegalArgumentException("Denominator cannot be zero");
+        throw new IllegalArgumentException("Le dénominateur ne peut pas être zéro.");
     }
     int result = a / b;
     return result;
@@ -79,9 +79,9 @@ public static int divide(int a, int b) {
 ```
 
 ## Use Case 3: Reverse engineering
-Possible example:
+Exemple possible:
 ```java
-// Ask AI what is the purpose of this code
+// Demande à l'IA ce que fait ce code
 public static List<Integer> calcul(int limit) {
     List<Integer> primes = new ArrayList<>();
     boolean[] isPrime = new boolean[limit + 1];
@@ -111,9 +111,9 @@ public static List<Integer> calcul(int limit) {
 
 ```
 
-Now it's your turn to integrate your prompt below: 👀
+À vous de jouer en intégrant votre prompt ci-dessous : 👀
 ```java
-What does this code do ?
+Que fait ce code ?
 public static List<Integer> calcul(int limit) {
     List<Integer> primes = new ArrayList<>();
     boolean[] isPrime = new boolean[limit + 1];
@@ -142,44 +142,43 @@ public static List<Integer> calcul(int limit) {
 }
 ```
 
-What was the response?
+Quelle a été la réponse ?
 ```java
-This code implements the Sieve of Eratosthenes algorithm to find all prime numbers up to a given limit. Here's a step-by-step explanation:
+Ce code implémente l'algorithme du crible d'Ératosthène pour trouver tous les nombres premiers jusqu'à une limite donnée. Voici une explication détaillée :
 
-Initialization:
+Initialisation :
 
-A list primes is created to store the prime numbers.
-A boolean array isPrime of size limit + 1 is created and initialized to true. This array will be used to mark non-prime numbers.
-Marking non-prime numbers:
+Une liste primes est créée pour stocker les nombres premiers.
+Un tableau booléen isPrime est initialisé avec true pour toutes les positions de 0 à limit.
+Marquage des non-premiers :
 
-The algorithm starts with the smallest prime number, p = 2.
-For each number p, if isPrime[p] is true, it marks all multiples of p (starting from p * p) as false in the isPrime array.
-This process continues until p * p exceeds the limit.
-Collecting prime numbers:
+On initialise p à 2, le premier nombre premier.
+Tant que p * p est inférieur ou égal à limit, on vérifie si isPrime[p] est true.
+Si c'est le cas, on marque tous les multiples de p (à partir de p * p) comme non-premiers (false).
+On incrémente p et on répète le processus.
+Collecte des nombres premiers :
 
-After marking non-prime numbers, the algorithm iterates through the isPrime array.
-For each index p where isPrime[p] is true, p is added to the primes list.
-Returning the result:
-
-The list of prime numbers primes is returned.
+Après avoir marqué tous les non-premiers, on parcourt le tableau isPrime.
+Si isPrime[p] est true, p est ajouté à la liste primes.
+Retourne la liste des nombres premiers.
 ```
 
 ## Use Case 4: REGEX
-Possible example:
+Exemple possible:
 ```java
-// Try to understand what this regex does without AI
-// Ask AI what the regex does and compare
-// Modify the regex to match your company
+// Essayez de comprendre cette regex sans utiliser l'IA
+// Demandez à l'IA ce que fait ce code et comparer avec votre temps de réflexion
+// Modifiez cette regex pour fonctionner pour votre entreprise
 
 ^[\w\.=-]+@[\w\.-]+\.[\w]{2,3}$
 ```
 
-Now it's your turn to integrate your prompt below: 👀
+À vous de jouer en intégrant votre prompt ci-dessous : 👀
 ```java
-Modify this regex ^[\w.=-]+@[\w.-]+.[\w]{2,3}Modify this regex ^[\w.=-]+@[\w.-]+.[\w]{2,3}$ so that it accepts only strings that finish by "@gmail.com"
+Modifie cette regex ^[\w.=-]+@[\w.-]+.[\w]{2,3} pour que cela accepts seulement les chaines qui finissent par "@gmail.com"
 ```
 
-What was the response?
+Quelle a été la réponse ?
 ```java
 ^[\w\.=-]+@gmail\.com$
 ```

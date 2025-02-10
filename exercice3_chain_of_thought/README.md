@@ -33,6 +33,7 @@ public class ClientController {
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -52,6 +53,7 @@ Créez un prompt qui demande au modèle de générer la documentation pour la m�
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```

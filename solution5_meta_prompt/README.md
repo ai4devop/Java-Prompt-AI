@@ -1,26 +1,38 @@
 # 📝 Exercise5 - Meta-Prompt ~ 10 minutes
 
-The meta-prompt involves asking the model to create a prompt itself using specific parameters. This method allows exploring new possibilities while automating prompt creation.
+The meta-prompt involves in creating a prompt that will be a prompt template to use for many occasions.
 
 ## 1️⃣ Use Case 1: Create a Prompt for the Model to Create a Prompt on a Topic
 
 Possible example:
 
 ```typescript
-Create a prompt for the model to create a prompt for a topic like the best practice for developing an Java 23 project.
+Create a prompt for the model that will be your base and help you in occasions
+For exemple, the best practice for developing in Java 23
+(You can also ask AI to help you to create it)
+And use it for some cases
 ```
 
 Now it's your turn to integrate your prompt below:  👀
 
 ```typescript
-Write an AI prompt to help me generate a to-do list of best practices for developing an Java 23 project.
+Write a pre-prompt to have an AI assistant for developing in java 23
 ```
 
 What was the response?
 
 ```typescript
-Sure! Here is a prompt you can use to generate a to-do list of best practices for developing a Java 23 project:
-"Generate a to-do list of best practices for developing a Java 23 project. The list should include tasks related to project setup, code quality, testing, documentation, and deployment. Each task should be clear and actionable, providing specific steps or guidelines to follow. The list should be comprehensive and suitable for both new and experienced developers."
+Sure, here's a pre-prompt you can use to set up an AI assistant for developing in Java 23:
+
+You are an AI programming assistant specialized in Java 23 development. Your tasks include:
+- Providing code examples and explanations for Java 23 features.
+- Assisting with debugging and troubleshooting Java code.
+- Generating unit tests for Java applications.
+- Offering best practices and design patterns for Java development.
+- Helping with setting up and configuring Java development environments.
+- Reviewing and optimizing Java code for performance and readability.
+
+Please ensure your responses are concise and relevant to Java 23 development.
 ```
 
 ## 2️⃣ Use Case 2: Create a Prompt Asking the Model to Generate a Prompt Combining Multiple Methods of Prompting

@@ -7,13 +7,13 @@ L'approche "Act Like" consiste à demander au modèle de se comporter comme une 
 Exemple possible :
 
 ```java
-Agis comme un développeur Java expérimenté. Que ne faut-il pas oublier pour développer une API sécurisée en Java ?
+Créez un prompt qui demande au modèle de fournir les étapes de développement d’un projet Java et de souligner les points d’attention.
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Créez un prompt qui demande au modèle de fournir les étapes de développement d’un projet Java et de souligner les points d’attention.
+Agis comme un développeur Java expérimenté. Que ne faut-il pas oublier pour développer une API sécurisée en Java ?
 ```
 
 Quelle a été la réponse ?
@@ -37,13 +37,14 @@ En tant que développeur Java expérimenté, voici ce qu'il ne faut pas oublier 
 Exemple possible :
 
 ```java
-Agis comme un expert en sécurité des applications web. Que faut-il absolument intégrer dans une API Java pour qu'elle soit conforme aux standards OWASP ?
+Créez un prompt qui demande au modèle de vous aider en jouant le rôle d’un expert spécialisé.
+
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Créez un prompt qui demande au modèle de vous aider en jouant le rôle d’un expert spécialisé.
+Agis comme un expert en sécurité des applications web. Que faut-il absolument intégrer dans une API Java pour qu'elle soit conforme aux standards OWASP ?
 ```
 Quelle a été la réponse ?
 
@@ -65,13 +66,13 @@ En tant qu'expert en sécurité des applications web, voici ce qu'il faut intég
 Exemple possible :
 
 ```java
-Agis comme un Lead Dev Java dans une équipe de développement. Quels sont les principes de conception à ne jamais oublier lors de la création d’un nouveau service en Java ?
+Comparez vos deux réponses et testez d’autres structures de réponses
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Comparez vos deux réponses et testez d’autres structures de réponses
+Agis comme un Lead Dev Java dans une équipe de développement. Quels sont les principes de conception à ne jamais oublier lors de la création d’un nouveau service en Java ?
 ```
 
 Quelle a été la réponse ?

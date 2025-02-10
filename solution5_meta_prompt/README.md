@@ -1,27 +1,42 @@
 # Exercice 5 - Méta-prompt ~ 10 minutes
 
-Le méta-prompt consiste à demander au modèle de créer lui-même un prompt en utilisant des paramètres spécifiques. Cette méthode permet d'explorer de nouvelles possibilités tout en automatisant la création de prompts.
+Le méta-prompt consiste à créer un prompt qui va être une sorte de prompt template à utiliser sur plusieurs occasions.
 
 ## Cas d'usage 1 : Créez un prompt qui demande au modèle de créer un prompt pour un sujet.
 
 Exemple possible :
 
 ```java
-Écris un prompt IA qui va m’aider à générer une liste de bonnes pratiques pour développer un projet Spring Boot.
+Créez un prompt pour le modèle qui va être une base de prompt et qui peut vous aider dans plusieurs occasions
+Par exemple, les best practices pour le développement java 23
+(Vous pouvez également demander à l'IA de vous aider pour la créer)
+Et utilisez là pour certains use cases
 ```
 
 À vous de jouer en intégrant votre prompt ci-dessous :
 
 ```java
-Créez un prompt qui demande au modèle de créer un prompt pour un sujet.
+Créez un pre-prompt pour avoir un assistant pour le développement en java 23.
 ```
 
 Quelle a été la réponse ?
 
 ```java
-Voici un prompt que vous pouvez utiliser pour générer une liste de bonnes pratiques pour un projet Spring Boot :
+Voici un exemple de pré-prompt pour un assistant de développement en Java 23 :
 
-"Liste les bonnes pratiques pour développer un projet Spring Boot, en mettant l'accent sur la configuration de la sécurité, la gestion des dépendances, l'optimisation des performances et les tests. Incluez des recommandations sur la structure des couches (controller, service, repository) et des suggestions pour l'utilisation de la documentation et des annotations."
+Vous êtes un assistant de développement logiciel spécialisé en Java 23. Votre rôle est d'aider les développeurs à écrire, déboguer et optimiser leur code Java. Vous devez fournir des explications claires et concises, des exemples de code, des suggestions d'amélioration et des bonnes pratiques de programmation. Vous devez également être capable de générer des tests unitaires, proposer des corrections pour les erreurs de code et expliquer les concepts avancés de Java 23.
+
+Voici quelques points à garder à l'esprit :
+- Utilisez toujours les meilleures pratiques de programmation.
+- Fournissez des exemples de code lorsque cela est pertinent.
+- Soyez précis et concis dans vos explications.
+- Assurez-vous que le code est compatible avec Java 23.
+- Aidez à résoudre les erreurs de compilation et d'exécution.
+- Proposez des optimisations de performance lorsque cela est possible.
+
+Commencez chaque réponse par une brève explication suivie d'exemples de code si nécessaire.
+
+Utilisez ce pré-prompt pour guider l'assistant dans ses réponses et fournir une aide efficace pour le développement en Java 23.
 ```
 
 ## Cas d'usage 2 : Créez un prompt qui demande au modèle de créer un prompt combinant plusieurs méthodes de prompting.
@@ -77,6 +92,6 @@ En prenant en compte ces cas supplémentaires, vous obtiendrez une validation pl
 
 ## Analyse des exemples fournis
 
-# Méta-prompt simple : Le premier exercice demande au modèle de générer un prompt efficace pour une liste de bonnes pratiques pour Spring Boot. La solution suggère un prompt bien structuré, couvrant des aspects essentiels comme la sécurité et l’organisation des couches.
+# Méta-prompt simple : Le premier exercice demande au modèle de générer un prompt pré-écrit efficace dans un bon nombre d'occasion. La solution suggère un prompt bien structuré, couvrant des aspects essentiels comme la sécurité et l’organisation des couches.
 
 # Méta-prompt combiné : Le deuxième exercice utilise les méthodes "act like" et "chain of thought" pour générer un prompt complexe, où le modèle doit réfléchir étape par étape et agir comme un expert. La réponse montre une approche réfléchie pour combiner les deux techniques, offrant des résultats détaillés.

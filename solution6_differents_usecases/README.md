@@ -14,7 +14,7 @@ public static int divide(int a, String b) {
 }
 ```
 
-Now it's your turn to integrate your prompt below: 👀
+À vous de jouer en intégrant votre prompt ci-dessous : 👀
 ```java
 Pourquoi mon code ne fonctionne pas
 public static int divide(int a, String b) {
@@ -25,7 +25,7 @@ public static int divide(int a, String b) {
 }
 ```
 
-What was the response?
+Quelle a été la réponse ?
 ```java
 Votre code ne fonctionne pas pour plusieurs raisons :
 

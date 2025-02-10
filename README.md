@@ -2,18 +2,19 @@
 
 ## Comment travailler sur cet atelier ?
 
-Tout d'abord clonez le projet et observez la convetion de branching.
-Les branches sont scindés par exercice, `exercice1`, `exercice2`, etc...
-
-Créer vous une branche par exercice afin de le résoudre et poussez vos solutions en ligne.
-Si vous travaillez sur la solution de `exercice1` depuis cette branche créez vous une branche de solution sous ce format:
+Clonez ce repository vers votre espace personnel afin de pouvoir garder ces exercices chez vous
+Nous vous conseillons de créer un nouveau repertoire avec le nom suivant
   
-> exercice1_IA_YYYY_MM_DD_nom_prenom
+> Java-Prompt-AI_YYYY_MM_DD_nom_prenom
 
-Chacun des exercices, dispose d'un README.md se suffisant à lui même car :
-- il vous donne les consignes de l'exercice
-- vous sert de branche source pour tirer votre branche de solution
-- vos solutions sont à ajoutées directement dans le README.md de votre nouvelle branche crée
+Vous pouvez voir dans ce repository qu'il existe plusieurs dossiers, chacun representant un exercice sous le prefixe "exercice...."
+Chacun des exercices, dispose d'un README.md, dans ce fichier, vous avez:
+- Les consignes de l'exercice
+- Un espace pour donner le prompt utilisé
+- Un espace pour afficher la réponse de votre IA à l'instant t
+
+Si vous êtes perdu ou bloqué pour la résolution d'un des exercices, vous avez un autre dossier "solution..." en parralèle de l'exercice que vous êtes en train de réaliser
+Dans ces dossier solution, vous trouverez une solution potentielle pour réaliser l'exercice, selon ayant pour but de vous aider pour trouver d'autres solutions possibles
  
 L'objectif ici est d'utiliser votre assistant d'IA générative dans la pratique des techniques de prompt engineering. 
 Vos essais ne seront pas forcément concluant du premier coup, pour cela n'hésitez pas à intégrer des explications détaillés en plus du prompt qui vous a permis de résoudre nos différents cas d'usage.

@@ -22,6 +22,7 @@ public static boolean validateEmail(String email) {
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -40,6 +41,7 @@ Demandez au modèle s’il peut donner plus de possibilités.
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -57,6 +59,7 @@ Demandez au modèle de s'auto-évaluer et d'améliorer sa réponse.
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```

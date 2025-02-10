@@ -16,6 +16,7 @@ Créez un prompt qui demande au modèle de fournir les étapes de développement
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -35,6 +36,7 @@ Créez un prompt qui demande au modèle de vous aider en jouant le rôle d’un 
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
@@ -52,6 +54,7 @@ Comparez vos deux réponses et testez d’autres structures de réponses
 Ecrivez votre prompt ici
 ```
 
+Quelle a été la réponse ?
 ```java
 Ecrivez la réponse de l'IA ici
 ```
